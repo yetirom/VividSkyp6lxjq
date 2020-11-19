@@ -16,7 +16,8 @@
         <a-scene
             vr-mode-ui="enabled: false;"
             loading-screen="enabled: false;"
-            renderer="logarithmicDepthBuffer: true;"
+            <!-- renderer="logarithmicDepthBuffer: true;" --!>
+            renderer="gammaOutput: true;"
             arjs="trackingMethod: best; sourceType: webcam; debugUIEnabled: false;"
             id="scene"
             embedded
